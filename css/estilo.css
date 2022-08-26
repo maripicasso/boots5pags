@@ -1,0 +1,24 @@
+.navbar {
+	background-color: beige;
+}
+
+.nav-tabs {
+	margin: 15px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.nav-tabs li a {
+	color: #73064B;
+}
+
+.nav-link:hover {
+	color: #099FB7;
+}
+
+#carouselExampleIndicators {
+	margin: 0 50px;
+}
+
+.d-block {
+	height: 500px;
+}
