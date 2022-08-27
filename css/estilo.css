@@ -15,10 +15,24 @@
 	color: #099FB7;
 }
 
+.principal {
+	background-color: black;
+}
+
 #carouselExampleIndicators {
 	margin: 0 50px;
 }
 
 .d-block {
 	height: 500px;
+}
+
+.card-body {
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+}
+
+.ubicacionIndex--mapa {
+	margin: auto;
 }
