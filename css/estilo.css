@@ -49,7 +49,7 @@
 }
 
 .ubicacion {
-	background-image: linear-gradient(burlywood, lightgrey);
+	/*b*//*ackground-image: linear-gradient(burlywood, lightgrey);*/
 }
 
 .card-ubicacion {
@@ -77,12 +77,12 @@
 }
 
 .mediospago {
-	background-image: linear-gradient(lightgrey, burlywood);
+	/*background-image: linear-gradient(lightgrey, burlywood);*/
 }
 
 .card-pago {
 	margin: auto;
-	background-image: linear-gradient(lightgrey, burlywood);
+	/*background-image: linear-gradient(lightgrey, burlywood);*/
 }
 
 .card-text {
@@ -94,7 +94,7 @@
 }
 
 .redes {
-	background-image: linear-gradient(burlywood, #F9E96A);
+	/*background-image: linear-gradient(burlywood, #F9E96A);*/
 }
 
 .list-group-horizontal {
@@ -132,7 +132,7 @@
 
 .newsletter {
 	justify-content: center;
-	background-image: linear-gradient(#F9E96A , #F9E85B);
+	/*background-image: linear-gradient(#F9E96A , #F9E85B);*/
 	font-family: 'Cinzel', serif;
 	font-size: 20px;
 }
@@ -158,4 +158,44 @@
 .justify-content-center li a {
 	font-family: 'Cinzel', sans-serif;
 	color: #F9DC05;
+}
+
+/*----------------Contacto-----------------*/
+
+.subtitulo h2 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Cinzel', serif;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+
+.subtitulo p {
+	font-family: monospace;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.formulario {
+	justify-content: center;
+	margin: 20px 0;
+	font-family: monospace;
+}
+
+.botonForm {
+	display: flex;
+	justify-content: center;
+}
+
+.botonForm button {
+	color: black;
+	background: lightblue;
+	border-color: lightblue;
+	width: 30%;
+}
+
+.container-fluid {
+	background-image: linear-gradient(lightgrey,burlywood, #F9E96A,#F9E85B );
 }
