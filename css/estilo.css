@@ -152,10 +152,7 @@
 
 .footer {
 	background-image: url(../assets/img/fondo1.png);
-}
-
-.justify-content-center {
-	margin: 15px auto;
+	padding: 15px 0;
 }
 
 .justify-content-center li a {
@@ -183,7 +180,7 @@
 	color: #F8D0C1;
 }
 
-.formulario, .subtitulo {
+.formulario, .subtitulo, .galeria, .enviarFoto {
 	background-image: url(../assets/img/bg.jpg);
 }
 
@@ -221,6 +218,7 @@
 .roll-in-blurred-left {
 	animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
+
 
 @media only screen and (max-width: 768px){
 	.header .row .navbar {
