@@ -222,5 +222,23 @@
 	animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
+@media only screen and (max-width: 768px){
+	.header .row .navbar {
+		flex-direction: column;
+	}
+
+	.header .row {
+		background-size: cover;
+	}
+
+	.nav-tabs {
+		justify-content: space-evenly;
+	}
+
+	.nav-tabs li a {
+		color: floralwhite;
+	}
+}
+
 
 
