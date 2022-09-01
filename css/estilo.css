@@ -202,6 +202,17 @@
 	width: 30%;
 }
 
+.subtituloEnviar .d-flex {
+	color: white;
+	font-family: monospace;
+	padding: 15px;
+}
+
+.botonGaleria {
+	padding:20px;
+}
+
+
 @keyframes roll-in-blurred-left {
   0% {
     transform: translateX(-1000px) rotate(-720deg);
