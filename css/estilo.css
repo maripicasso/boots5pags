@@ -180,7 +180,7 @@
 	color: #F8D0C1;
 }
 
-.formulario, .subtitulo, .galeria, .enviarFoto {
+.formulario, .subtitulo, .galeria, .enviarFoto, .fotosCarta, .carta {
 	background-image: url(../assets/img/bg.jpg);
 }
 
@@ -212,6 +212,14 @@
 	padding:20px;
 }
 
+.table {
+	color: whitesmoke;
+}
+
+.carta {
+	padding-bottom: 50px;
+}
+
 
 @keyframes roll-in-blurred-left {
   0% {
@@ -228,6 +236,17 @@
 
 .roll-in-blurred-left {
 	animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+.fecha, .cantidad  {
+	padding: 20px 0;
+}
+
+.inputTelefono {
+	padding: 15px 0;
+}
+
+.precio {
+	text-align: end;
 }
 
 
